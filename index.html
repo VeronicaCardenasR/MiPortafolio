@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="topbar">
+      <div class="lado-izq">
+        <div id="hamburguesa" class="hamburguesa">☰</div>
+      </div>
+        <div class="lado-derecho">
+          <button class="lengua-btn">ES</button>
+          <button class="theme-btn"><i class="fa-solid fa-moon"></i></button>
+          <div class="bookmark">
+            <img src="imagenes/VCR.png" alt="VCR" />
+          </div>
+        </div>
+    </header>
+    
+    
+      <nav id="sidebar" class="sidebar hidden">
+        <ul>
+          <li><a href="#proyectos"><i class="fa-solid fa-lightbulb"></i><span class="toolmenu">Proyectos</span></a></li>
+          <li><a href="#skills-section"><i class="fa-solid fa-brain"></i><span class="toolmenu">Skills</span></a></li>
+          <li><a href="#acerca"><i class="fa-solid fa-user"></i><span class="toolmenu">Acerca de mí</span></a></li>    
+          <li><a href="#contacto"><i class="fa-solid fa-envelope"></i><span class="toolmenu">Contáctame</span></a></li>
+          <li><a href="imagenes/CV-VeronicaCardenas.pdf" target="_blank"><i class="fa-solid fa-folder-open"></i><span class="toolmenu">Hoja de Vida</span></a></li>
+        </ul>
+      </nav>
+      
+    <main class="main-content">
+
+      <section class="inicio1" id="inicio">
+          <div class="inicio-texto">
+            <h1>&lt; Hola, soy Veronica Cardenas /&gt;</h1>
+            <p>Desarrolladora Full Stack con formación en Java y experiencia previa en Comunicación Digital, Marketing y Análisis de Datos.</p>
+          </div>
+          <div class="inicio-img">
+            <img src="imagenes/fotoveropng.png" alt="Foto de perfil">
+          </div>
+      </section>    
+      
+      <section class="proyectos" id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="grid-proyectos">
+          <div class="card-proyecto">
+            <img src="imagenes/FB Portada.png" alt="Proyecto 1">
+            <div class="contenido">
+              <h3>SAMAY, herencia que inspira</h3>
+              <p>E-commerce proyecto de grado Generation Coh8.</p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <a href="https://github.com/jorgeramirez2018/Proyecto-Samay" target="_blank" class="btn-github"><i class="fab fa-github"></i> Ver en GitHub</a>            
+            </div>
+            </div>
+          </div>
+         
+      
+          <div class="card-proyecto">
+            <img src="imagenes/Portafolio.png" alt="Proyecto 2">
+            <div class="contenido">
+              <h3>Mi portafolio</h3>
+              <p>Este mismo portafolio, construido desde cero.</p>
+            <div class="tags">
+              <span>JavaScript</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <a href="https://github.com/tu-usuario/repositorio" target="_blank" class="btn-github"><i class="fab fa-github"></i> Ver en GitHub</a>
+            </div>
+            </div>
+          </div>
+          
+      
+          <div class="card-proyecto">
+            <img src="" alt="Proyecto 3">
+            <div class="contenido">
+              <h3>xx</h3>
+              <p>xxxx</p>
+              <div class="tags">
+                <span>x</span>
+                <span>x</span>
+                <span>x</span>
+                <a href="https://github.com/tu-usuario/repositorio" target="_blank" class="btn-github"><i class="fab fa-github"></i> Ver en GitHub</a>
+              </div>
+            </div>
+          </div>
+         
+      
+          <div class="card-proyecto">
+            <img src="" alt="Proyecto 4">
+            <div class="contenido">
+              <h3>xxx</h3>
+              <p>xxx</p>
+              <div class="tags">
+                <span>x</span>
+                <span>x</span>
+                <span>x</span>
+                <a href="https://github.com/tu-usuario/repositorio" target="_blank" class="btn-github"><i class="fab fa-github"></i> Ver en GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+        <div class="divider"></div>
+
+        <section id="skills-section">
+          <h2 class="skills-titulo">Skills</h2>
+          <div class="skills-container">
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-java"></i>
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-figma"></i>
+            <i class="fa-brands fa-git-alt"></i>
+            <i class="fa-brands fa-github-alt"></i>
+            <i class="fa-solid fa-database"></i>
+            <i class="fa-brands fa-java"></i>
+            <i class="fa-brands fa-bootstrap"></i>
+            <i class="fa-brands fa-slack"></i>
+            <i class="fa-brands fa-google-drive"></i>      
+        
+          </div>
+        </section>
+
+        <section class="acerca" id="acerca">
+          <h2 class="seccion-titulo izquierda">Acerca de mí</h2>
+          <div class="contenido-acerca">
+            <div class="foto-perfil">
+             <img src="imagenes/Acercademi.png" alt="Acerca de mi">
+             </div>
+          <div class="texto-acerca">
+            <p>Desarrolladora Full Stack con formación en Java y experiencia previa en Comunicación Digital, Marketing y Análisis de Datos. Cuento con conocimientos en HTML, CSS, JavaScript, Java, Spring Boot y MySQL, aplicando metodologías ágiles como SCRUM, control de versiones con Git y pruebas unitarias. He liderado procesos de automatización y visualización de datos, integrando diseño orientado al usuario con desarrollo Back-End. </p>
+            <p>Me interesa crear interfaces limpias, funcionales y accesibles, y disfruto colaborar en equipos donde se valore tanto el detalle como la creatividad.</p>
+            <a class="boton-cv" href="imagenes/CV-VeronicaCardenas.pdf" target="_blank">📄 Hoja de vida</a>
+          </div>
+          </div>
+        </section>
+
+        <section class="contacto" id="contacto">
+          <h2 class="seccion-titulo">Contáctame</h2>
+          <p class="seccion-parrafo">¿Tienes preguntas, quieres que empecemos un proyecto? No dudes en dejarme tus datos. </p>
+          <form class="formulario-contacto">
+            <input type="text" id="nombre" placeholder="Tu nombre" required />
+            <input type="email" placeholder="Tu email" required />
+            <textarea rows="6" placeholder="Tu mensaje" required></textarea>
+            <button type="submit" id="enviar">Enviar</button>
+          </form>
+          <p id="mensaje-saludo"></p>
+
+        </section>  
+    </main>
+
+    <div class="barra-social">
+      <ul>
+        <li><a href="mailto:crveronica20@gmail.com" target="_blank" aria-label="Correo electrónico"><i class="fas fa-envelope"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/veronica-cardenas-rivera/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://www.instagram.com/crveronica_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://github.com/VeronicaCardenasR" target="_blank"><i class="fab fa-github"></i></a></li>
+      </ul>
+    <div class="linea"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
