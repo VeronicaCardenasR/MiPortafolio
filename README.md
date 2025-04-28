@@ -34,11 +34,16 @@ Al final está fue la paleta de colores que escogí para mi proyecto:
 ### 2. Bocetos 
 Despues de analizar y revisar muchos portafolios, empecé con un boceto a mano basado en lo que quería e inspiración de otras ideas.
 Opciones:
-1. 
-2. 
-3.
+1. <img src= "/imagenes/Opción 1.jpg" width="250px">  2. <img src= "/imagenes/Opcion 2.jpg" width="250px">  3. <img src= "/imagenes/Opcion3.jpg" width="250px">
+
+
+   
+
 
 Luego procedí a hacer mi boceto en figma, en donde la opción final fue la 2. 
+
+ <img src= "/imagenes/Pfolio Figma.png" width="400px">
+ 
 + 📝 [Figma boceto](https://www.figma.com/design/ws1fWeCwo9Go13h3q40ih4/Portafolio-Vero?node-id=0-1&t=GVUyCZqkqhIPnwvQ-1)
 
 
