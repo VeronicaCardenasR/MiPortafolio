@@ -29,3 +29,8 @@ document.getElementById("enviar").addEventListener('click', function(){
  
 })
 
+const themeToggle = document.querySelector('.theme-btn');
+
+themeToggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+});
