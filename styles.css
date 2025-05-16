@@ -8,7 +8,7 @@ body{
   background-color: #f3f3f3;
   font-family: 'Open Sans', sans-serif;
   color: #1B0E2A;
-  background-image: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
+  background-image: url('https://www.transparenttextures.com/patterns/xv.png');
 }
 
 /* TOPBAR */
@@ -367,6 +367,7 @@ color: #1B0E2A;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
   font-size: 1.3rem;
+  text-align: justify;
 }
 
 .texto-acerca a.boton-cv {
@@ -426,9 +427,9 @@ color: #1B0E2A;
   padding: 0.8rem 1rem;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
-  border: none;
+  border: 2px solid #5e2b97; ;
   border-radius: 6px;
-  color: white;
+  color: #1B0E2A;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   outline: none;
 }
@@ -581,6 +582,11 @@ z-index: 999;
   justify-content: center;
   gap: 2rem;
   margin-bottom: 0.3rem;
+  
+}
+
+.barra-social li a {
+  color: #f3f3f3;
 }
 
 .barra-social .linea {
@@ -608,5 +614,119 @@ body {
 .grid-proyectos {
   grid-template-columns: 1fr;
 }
+}
+
+/* ================= DARK MODE ================== */
+body.dark-mode {
+  background-color: #1B0E2A;
+  color: #f3f3f3;
+  background-image: url('https://www.transparenttextures.com/patterns/xv.png');
+}
+
+/* Topbar + Botones */
+body.dark-mode .topbar {
+  background-color: #f3f3f3;
+}
+
+body.dark-mode .lado-derecho button,
+body.dark-mode .hamburguesa {
+  color: #1B0E2A;
+}
+
+/* Sidebar + tooltips */
+body.dark-mode .sidebar {
+  background-color: #f3f3f3;
+}
+body.dark-mode .sidebar a {
+  color: #1B0E2A;
+}
+body.dark-mode .toolmenu {
+  background-color: #5e2b97;
+  color: white;
+}
+body.dark-mode .inicio1 {
+  color: #f3f3f3;
+}
+
+/*PROYECTOS */
+
+body.dark-mode .proyectos h2{
+  background-color: #f3f3f3;
+  color: #1B0E2A;
+}
+
+body.dark-mode .card-proyecto {
+  background-color: #f3f3f3;
+  color: #1B0E2A;
+}
+
+body.dark-mode .tags span,
+body.dark-mode .btn-github,
+body.dark-mode .btn-demo {
+  background-color: #1B0E2A;
+  color: white;
+}
+body.dark-mode .btn-github:hover,
+body.dark-mode .btn-demo:hover {
+  background-color: #a66dd3;
+}
+
+
+/* SKILLS */
+body.dark-mode .seccion-titulo,
+body.dark-mode .skills-titulo {
+  background-color: #f3f3f3;
+  color: #1B0E2A;
+}
+body.dark-mode .skill-item i,
+body.dark-mode .skill-item span {
+  color: #f3f3f3;
+}
+
+body.dark-mode #skills-section i{
+  color: #f3f3f3;
+}
+
+body.dark-mode #skills-section .skills-titulo {
+  background-color: #f3f3f3;
+  color: #1B0E2A;
+}
+
+/* ACERCA DE MI */
+
+body.dark-mode .acerca {
+  color: #f3f3f3;
+}
+
+/* Sección Contacto */
+
+
+body.dark-mode .formulario-contacto input,
+body.dark-mode .formulario-contacto textarea {
+  background-color: #f3f3f3;
+  color: #1B0E2A;
+}
+body.dark-mode .formulario-contacto button {
+  background-color: #5e2b97;
+}
+body.dark-mode .formulario-contacto button:hover {
+  background-color: #a66dd3;
+}
+body.dark-mode #mensaje-saludo {
+  color: #f3f3f3;
+}
+
+/* Otros elementos clave */
+
+
+body.dark-mode .barra-social li a {
+  color: #f3f3f3;
+}
+body.dark-mode .barra-social .linea {
+  background-color: #f3f3f3;
+}
+
+body.dark-mode .barra-social li a:hover {
+  color: #a66dd3;
 }
 
